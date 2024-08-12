@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4B4480BC-0FD8-40DC-9E45-79EE0992EFEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Saga", "Saga", "{C04AB971-C97C-465C-BC0F-E27FD21D91D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{30962F61-DFC5-4D41-ADC1-712EE90AB646}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{C4266A75-1A11-41B3-A088-6ECD85D89E23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payment", "Payment", "{2978907E-F9A8-4D38-8240-C3F4D9A3E38E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notification", "Notification", "{3BB698F4-4C1C-4396-8E8D-A0B72CC58BFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{9BBFB298-888C-4141-B1AF-8C13BE15F4CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagaSateMachine.BasketService", "Services\Basket\SagaSateMachine.BasketService\SagaSateMachine.BasketService.csproj", "{C8D818D8-ED30-4028-8141-55E925DE2B66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagaSateMachine.OrderService", "Services\Order\SagaSateMachine.OrderService\SagaSateMachine.OrderService.csproj", "{6BA602A3-5FAA-4E2A-AE2D-60AE68BA5D9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagaSateMachine.PaymentService", "Services\Payment\SagaSateMachine.PaymentService\SagaSateMachine.PaymentService.csproj", "{165C72D1-A021-445B-852F-324F0C4101D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagaSateMachine.Saga.Orchestrator", "Services\Saga\Orchestrator\SagaSateMachine.Saga.Orchestrator\SagaSateMachine.Saga.Orchestrator.csproj", "{9836F49F-E8D0-48B1-8E64-7A38FE9AA5E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagaSateMachine.Common", "Common\SagaSateMachine.Common\SagaSateMachine.Common.csproj", "{001EF20F-DF85-4FD0-B652-C39DE68184AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaSateMachine.NotificationService", "Services\Notification\SagaSateMachine.NotificationService\SagaSateMachine.NotificationService.csproj", "{1D7A445B-508E-4962-AEAD-796E16C001DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8D818D8-ED30-4028-8141-55E925DE2B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D818D8-ED30-4028-8141-55E925DE2B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D818D8-ED30-4028-8141-55E925DE2B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D818D8-ED30-4028-8141-55E925DE2B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA602A3-5FAA-4E2A-AE2D-60AE68BA5D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA602A3-5FAA-4E2A-AE2D-60AE68BA5D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA602A3-5FAA-4E2A-AE2D-60AE68BA5D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA602A3-5FAA-4E2A-AE2D-60AE68BA5D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{165C72D1-A021-445B-852F-324F0C4101D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165C72D1-A021-445B-852F-324F0C4101D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165C72D1-A021-445B-852F-324F0C4101D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{165C72D1-A021-445B-852F-324F0C4101D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9836F49F-E8D0-48B1-8E64-7A38FE9AA5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9836F49F-E8D0-48B1-8E64-7A38FE9AA5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9836F49F-E8D0-48B1-8E64-7A38FE9AA5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9836F49F-E8D0-48B1-8E64-7A38FE9AA5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{001EF20F-DF85-4FD0-B652-C39DE68184AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001EF20F-DF85-4FD0-B652-C39DE68184AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001EF20F-DF85-4FD0-B652-C39DE68184AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001EF20F-DF85-4FD0-B652-C39DE68184AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D7A445B-508E-4962-AEAD-796E16C001DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7A445B-508E-4962-AEAD-796E16C001DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7A445B-508E-4962-AEAD-796E16C001DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7A445B-508E-4962-AEAD-796E16C001DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C04AB971-C97C-465C-BC0F-E27FD21D91D2} = {4B4480BC-0FD8-40DC-9E45-79EE0992EFEC}
+		{30962F61-DFC5-4D41-ADC1-712EE90AB646} = {4B4480BC-0FD8-40DC-9E45-79EE0992EFEC}
+		{C4266A75-1A11-41B3-A088-6ECD85D89E23} = {4B4480BC-0FD8-40DC-9E45-79EE0992EFEC}
+		{2978907E-F9A8-4D38-8240-C3F4D9A3E38E} = {4B4480BC-0FD8-40DC-9E45-79EE0992EFEC}
+		{3BB698F4-4C1C-4396-8E8D-A0B72CC58BFB} = {4B4480BC-0FD8-40DC-9E45-79EE0992EFEC}
+		{C8D818D8-ED30-4028-8141-55E925DE2B66} = {30962F61-DFC5-4D41-ADC1-712EE90AB646}
+		{6BA602A3-5FAA-4E2A-AE2D-60AE68BA5D9A} = {C4266A75-1A11-41B3-A088-6ECD85D89E23}
+		{165C72D1-A021-445B-852F-324F0C4101D5} = {2978907E-F9A8-4D38-8240-C3F4D9A3E38E}
+		{9836F49F-E8D0-48B1-8E64-7A38FE9AA5E7} = {C04AB971-C97C-465C-BC0F-E27FD21D91D2}
+		{001EF20F-DF85-4FD0-B652-C39DE68184AA} = {9BBFB298-888C-4141-B1AF-8C13BE15F4CA}
+		{1D7A445B-508E-4962-AEAD-796E16C001DC} = {3BB698F4-4C1C-4396-8E8D-A0B72CC58BFB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F57EDA00-33BB-45D7-8F45-3C1A90521FEC}
+	EndGlobalSection
+EndGlobal

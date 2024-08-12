@@ -1,0 +1,6 @@
+@SagaSateMachine.Saga.Orchestrator_HostAddress = http://localhost:5159
+
+GET {{SagaSateMachine.Saga.Orchestrator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
